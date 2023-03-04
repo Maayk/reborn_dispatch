@@ -48,10 +48,6 @@ AddEventHandler('Reborn:Dispatch:NovoPush', function(alertData)
                          action = "PushAlerta",
                          alerta = alertData,
                     })
-                    --  SendNUIMessage({
-                    --      action = "UpdateAlertas",
-                    --      alerta = alertData,
-                    --  })
                end
           end)
      end
